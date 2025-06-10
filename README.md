@@ -20,6 +20,8 @@ Visual Diagnostics: Confusion matrices and accuracy plots for interpretability.
 Project Structure
 
 
+├── network-logs.xls          # Dataset
+
 ├── preprocessing.py          # Data cleaning & label analysis (e.g., ANOMALY distribution)
 
 ├── var-trainSize.py          # Tests how training size affects anomaly detection  
@@ -33,12 +35,11 @@ Project Structure
 Installation & Setup
 Install dependencies:
 
-bash
 pip install pandas numpy scikit-learn matplotlib  
 Run scripts (example):
 
-bash
 python KNN-Model.py  # Outputs anomaly detection metrics  
+
 Usage Examples
 Anomaly Detection Metrics (KNN-Model.py)
 python
